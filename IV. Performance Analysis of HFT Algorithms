@@ -1,0 +1,79 @@
+       
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> IV. Performance Analysis of HFT Algorithms </title>
+</head>
+<style>
+h1 {text-align: center}
+</style >
+<body>
+<body style="background-color: lightblue;">
+<h6> CS1102 - Course Project - 2024/2025 Semester B - Wu Wenluo, Wu Kong Lung, Rihad Sunbim Zahin, Cheng Si Lok </h6>
+<h1>IV. Performance Analysis of HFT Algorithms  </h1>      
+        
+        
+        
+        
+       
+<h2> A. 5 Key Performance Analysis of HFT Algorithms <h2>
+
+        <h3>1. Sharpe Ratio</h3>
+        
+        <p>The Sharpe Ratio assesses the risk-adjusted returns, which helps investors to balance the risk and return. It is calculated by (Strategy Returns - Risk-Free Rate / Standard Deviation of Returns. A Sharpe Ratio less than 1.0 is considered poor performance, 1.0 - 1.99 is regarded as acceptable performance, 2.0 - 2.99 0 is considered good performance, and over 3.0 is considered a great performance. A high Sharpe Ratio represents that the returns are sufficiently robust relative to the risk taken. However, some investors often forget to include transaction costs when calculating the Sharpe Ratio, it is important to note that calculated transaction costs give a more realistic view of the risk and return.[20]</p>
+        
+ 
+        <h3>2. Maximum Drawdown</h3>
+       
+        <p>Maximum Drawdown measures the greatest peak-to-trough decline during a specific period, it shows the biggest potential loss. Which often acts as a stress test for trading. A Maximum Drawdown lower than 25% is good, between 25% and 50% is acceptable, and over 50% is poor. Maximum Drawdown helps flag strategy issues and shows the loss scenario of the worst-case, which is essential in High-frequency trading. [20]</p>
+
+
+        <h3>3. Profit Factor</h3>
+        
+        <p>The Profit Factor provides a straight and forward measure of the overall profitability. It is calculated by Total Gains / Total Losses. A value above 1 showcases that a strategy is profitable. However, an overly high factor might point to over-optimization, The Profit Factor is just one piece of the puzzle of measuring High-frequency trading, it is important to use the Profit Factor along with other metrics and factors. [20]</p>
+
+
+        <h3>4.Win Rate</h3>
+        
+        <p>The Win Rate helps to define the frequency of successful trades that make a profit. Although a higher win rate looks attractive, it does not always mean traders are raking in the cash. Win Rate must be considered alongside the reward-to-risk ratio. For example, HFT Systems A has an 80%-win rate of winning $80 and losing $200, and HFT System B has a 40%-win rate of winning $300 and losing $100. The lower win rate system (HFT System B) has a net profit of $3000 after 50 trades, and the higher win rate system only has a net profit of $1200 after 50 trades.[20]</p>
+        
+        
+        <h3>5. Latency</h3>
+       
+        <p>Speed is critical in High-frequency trading. Latency showcases the delay between order placement and execution, a lower latency will lead to a faster reaction to market dynamics.  It is important to reduce latency to a microsecond or nanosecond level, as in a highly competitive environment, a small delay in milliseconds may lead to lost opportunities.[20]</p>
+
+
+
+
+
+<h2> B. Comparative Analysis between High-frequency trading and traditional discretionary trading <h2>
+        <h3>1. Automation Level and Speed </h3>
+        <p> High-frequency trading and traditional discretionary trading represent two approaches in modern financial trading, which are different fundamentally, each trading approaches have its distinct advantages and challenges. Firstly, let’s start by comparing the automation level and speed between High-frequency trading and traditional discretionary trading. High-frequency trading utilizes advanced algorithms and high-speed connectivity, which enable the execution of orders within microseconds. Rapid processing enables High-frequency trading to exploit minute price differences and transient arbitrage opportunities. On the other hand, discretionary trading relies heavily on decision-making and analysis by humans, which requires a longer time range. High-frequency trading has superior performance on the trading speed and automation level, which will result in a difference in capturing or missing opportunities in the volatile market situation. [23]<p>
+
+
+        <h3>2. Data Processing and Analysis </h3>
+        <p> High-frequency trading uses algorithms to analyze massive amounts of real-time data at an extremely high speed, which is impossible for human traders to process quickly. These systems utilize advanced statistical models designed to detect patterns, irregularities,and anomalies that can signal profitable market inefficiencies opportunities. The operating of algorithms is data-driven, driven by quantitative signals from past, historical, and real-time market data. High-frequency trading enables automated execution. Once the system identifies the possibility of a potential strike, trades will then be executed at lightning speed. Trade is automated with minimal human control, supervision, and intervention. However, although High-frequency trading has a massive amount of data processing and analysis of historical and real-time market data in a short period, there are still shortcomings and disadvantages when compared with discretionary traders. In general, discretionary traders typically integrate a broader range of information. Not only quantitative data, but discretionary traders would also generate qualitative trading insights, such as economic news, geopolitical events, and market sentiment. These insights can help traders to have a more comprehensive picture of the overall market conditions. Discretionary traders may have a more comprehensive understanding of the market dynamics; however, traders generally cannot react quickly enough to capitalize on the opportunities as High-frequency trading does. [23]<p>
+        
+        <h3>3. Risk Management and Risk Control </h3>
+        <p>Risk management is crucial in any trading approach. Regarding risk management and risk control, high-frequency trading relies on automated, real-time quantitative controls. The algorithm system enables pre-programmed risk parameters which would monitor the market conditions, also adjust positions within microseconds. Measures like limit orders, stop-loss triggers, and circuit breakers activate instantly when thresholds are breached. In comparison, traditional discretionary trading depends on human judgment. Inexperienced traders will be highly affected by emotional biases, deeply affecting the risk management control of traditional discretionary trading, such as a slower response time for critical decisions during rapid market movement situations. Experienced traders have the ability, intuition, and experience to consider broader economic and geopolitical factors. Traditional discretionary trading has more flexibility in risk management. [23]<p>
+
+
+
+       <h2> C. Case Studies <h2>
+       <h3>Knight Capital Group Incident </h3>
+
+        <p> Knight Capital Group is one of the largest executors of stock trades in the US, its incident happened with new software that had been improperly installed. There are conflicts between the new software code and the old code, unleashing a flood of orders to the New York Stock Exchange. Without volume caps measures, this incident led Knight to an enormous position, which forced it to liquidate at a significant loss. [21] <p>
+        
+        <p> The Knight Capital Group Incident remains one of the most notorious HFT failure cases. The mistakes in software setup and design oversight of the HFT system lead to erratic order placement, which results in the breakdown of risk controls within minutes. A lack of rigorous performance analysis will lead to catastrophes, especially in a system where speed is crucial.The Knight Capital Group Incident failed due to technical issues, flawed algorithms, insufficient stress testing under extreme market conditions, overreliance on trading speed, and low latency without inadequate proper risk controls. <p>
+
+        <h4> Sharpe Ratio </h4>
+        <p>During the incident, the Sharpe Ratio turned negative, meaning that the risk-adjusted returns have turned negative. Inadequate risk checks make the returns insufficient to justify the extreme volatility situation. The returns could not balance out the high volatility, exposing the serious flaws in the design of this HFT algorithm.<p>
+        
+        <h4> Maximum Drawdown </h4>
+        <p>The system has experienced a drop of over 50% in a very short period. This huge drawdown showcased that the system did not conduct a proper stress test and are lack of effective stop-loss measures. Which makes the system fail to limit losses during a turbulent market condition.<p>
+        
+        <h4> Profit Factor </h4>
+        <p> The Profit Factor has dropped below 1, meaning losses were much greater than profits. In normal market conditions, the algorithm can capture profitable opportunities. However, a misconfiguration triggered a sequence of erroneous trades, which wiped out the profit margin.<p>
+        
+        <h4> Latency </h4>
+        <p>The fast order execution is the advantage for HFT systems. However ironically the extremely low latency has amplified the impact of software bugs, it spreads incorrect orders instantly. The system overwhelmed the market with orders before risk management measures could actives.<p>
